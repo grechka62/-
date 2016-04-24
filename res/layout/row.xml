@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="20dp" >
+    
+    <ImageView 
+        android:id="@+id/smallpic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/smallpic" />
+    
+    <RelativeLayout
+        android:id="@+id/relLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp" >
+
+        <TextView 
+        	android:id="@+id/name"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentTop="true"
+        	android:textSize="20dp"
+        	android:textColor="@color/mainText" />
+    	
+    	<TextView
+    	    android:id="@+id/genres"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@+id/name"
+        	android:textSize="16dp"
+        	android:textColor="@color/addText" />
+    	
+    	<TextView
+    	    android:id="@+id/tracks"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentBottom="true"
+        	android:textSize="16dp"
+        	android:textColor="@color/addText" />
+    	
+    </RelativeLayout>
+        
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Исполнители</string>
+    <string name="jsonUrl">http://download.cdn.yandex.net/mobilization-2016/artists.json</string>
+    <string name="title_activity_artist_detailed">ArtistDetailed</string>
+    <string name="action_settings">Settings</string>
+    <string name="byo">Биография</string>
+    <string name="connText">При загрузке данных произошла ошибка. Проверьте Ваше подключение к сети.</string>
+    <string name="connButton">Повторить попытку</string>
+    <string name="title_activity_repeat_conn">Исполнители</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
